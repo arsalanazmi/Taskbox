@@ -6,6 +6,7 @@
 }
 
 body {
-  background: linear-gradient(120deg, #ad9137, #231e1c);
+  /* background: linear-gradient(120deg, #ad9137, #231e1c); */
+  background: linear-gradient(135deg, #d3e9e9, #011c20);
   min-height: 100vh;
 }

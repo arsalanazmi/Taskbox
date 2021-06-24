@@ -1,7 +1,8 @@
 .title {
     color: whitesmoke;
-    font-size: 3.4rem;
+    font-size: 4rem;
     font-weight: 600;
+    text-decoration: underline;
   }
   
   @media screen and (max-width: 950px) {
