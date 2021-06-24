@@ -4,12 +4,10 @@ import Form from "../components/Form/Form";
 import TodoList from "../components/TodoList/TodoList";
 import classes from "./app.module.css";
 import { TodoType } from "../types/types";
-// import Footer from "../components/Footer/Footer";
 
 function App() {
   // Todos
   let [todos, setTodos] = useState<TodoType[]>([
-    { title: "Let's add todos", completed: false },
   ]);
 
   // Selected Filter
@@ -58,7 +56,7 @@ function App() {
   return (
     <div className={classes.container}>
       <header className={classes.header}>
-        <Title value="Todo List" />
+        <Title value="Task Box" />
       </header>
       <Form addTodo={addTodo} applyFilter={applyFilter} />
       <TodoList
@@ -66,7 +64,6 @@ function App() {
         changeClass={changeClass}
         removeTodo={removeTodo}
       />
-      {/* <Footer /> */}
     </div>
   );
 }
